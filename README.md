@@ -2,7 +2,8 @@
    
 ## **Overview**
 
-Welcome to the unbeatable Tic Tac Toe game, created with minimax algorithm. This project delves into game theory and decision-making algorithms, providing an excellent opportunity to understand the core principles behind these concepts.
+Welcome to the unbeatable Tic Tac Toe game, created with minimax algorithm. I have recently started to interested in game theory and decision-making algorithms. So this project delves into minimax algorithm. It was a good practice to understand core logic behind minimax algorithm and more generally decision making algorithms
+
 - Features
 
    - Unbeatable AI: Uses the minimax algorithm to ensure optimal moves.

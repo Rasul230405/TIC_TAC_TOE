@@ -51,11 +51,13 @@ Game Boards
 
 ## *Installation*
 
-   Clone the Repository:
-         ```bash
-          git clone https://github.com/your-username/tic-tac-toe-minimax.git
+   - Clone the Repository:
+        - ```bash
+           git clone https://github.com/your-username/tic-tac-toe-minimax.git
+          ``` 
+        - ```bash
           cd tic-tac-toe-minimax
-          ```  
+          ```
    Build the Project:
       Compile the source code using your preferred C++ compiler.
 ## *Usage*

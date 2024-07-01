@@ -2,12 +2,12 @@
    
 ## **Overview**
 
-Welcome to the unbeatable Tic Tac Toe game, crafted with the powerful minimax algorithm. This project delves into game theory and decision-making algorithms, providing an excellent opportunity to understand the core principles behind these concepts.
-Features
+Welcome to the unbeatable Tic Tac Toe game, created minimax algorithm. This project delves into game theory and decision-making algorithms, providing an excellent opportunity to understand the core principles behind these concepts.
+- Features
 
-   Unbeatable AI: Uses the minimax algorithm to ensure optimal moves and a challenging opponent.
-   Intuitive GUI: Choose to play as either X or O with a user-friendly graphical interface.
-   Interactive Gameplay: Click-based interaction to make moves.
+   - Unbeatable AI: Uses the minimax algorithm to ensure optimal moves.
+   - Intuitive GUI: Choose to play as either X or O with a user-friendly graphical interface.
+   - Interactive Gameplay: Click-based interaction to make moves.
 
 ## **How It Works**
 
@@ -43,7 +43,7 @@ Game Boards
     - It is responsible for the graphical representation and user interaction.
 
  ## *Bridging Logic and Graphics*
- The mousePosToIndex() function is crucial for the game's functionality. It converts mouse positions from the Graphics Board into corresponding indices on the Logic Board, allowing seamless integration between the visual and logical components of the game.
+ The mousePosToIndex() function is crucial for the game's functionality. It converts mouse positions from the Graphics Board into corresponding indices on the Logic Board, allowing  integration between Graphics Board and Logic Board
 
  ## *Getting Started*
 ### Prerequisites
@@ -74,6 +74,6 @@ Game Boards
 
 The minimax algorithm ensures that the AI makes optimal decisions to either win or draw the game. It recursively evaluates possible game states and selects the move that minimizes the opponent's maximum score.
 
-Everyone is welcome to contribute to this project
+### **Everyone is welcome to contribute to this project**
 
 

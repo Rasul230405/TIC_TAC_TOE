@@ -1,4 +1,4 @@
-###   **Unbeatable Tic Tac Toe Game**
+#   **Unbeatable Tic Tac Toe Game**
    
 ## **Overview**
 
@@ -52,8 +52,10 @@ Game Boards
 ## *Installation*
 
    Clone the Repository:
-           'git clone https://github.com/your-username/tic-tac-toe-minimax.git'
-           'cd tic-tac-toe-minimax'
+           '''bash
+           git clone https://github.com/your-username/tic-tac-toe-minimax.git'
+           cd tic-tac-toe-minimax
+           '''
    Build the Project:
       Compile the source code using your preferred C++ compiler.
 ## *Usage*

@@ -43,6 +43,8 @@
 
 std::vector<std::string> board = { "...", "...", "..." };
 std::vector<sf::RectangleShape> graphic_board;
+
+const char DRAW = '-';
 enum class Turn { Player, Computer };
 
 void game_loop(sf::RenderWindow& window);
@@ -107,8 +109,6 @@ char check_winner() {
     /*
     returns the figure of winner.If there is no winner returns '-'
     */
-
-    const char DRAW = '-';
 
     // Check rows for winner
     for (int row = 0; row < 3; row++) {
@@ -282,7 +282,7 @@ std::pair<int, std::pair<int, int>> minimax(char player, char comp, char user, b
     */
     if (is_endgame()) {
         char w = check_winner();
-        if (w == ' ') return { 0, {-1, -1} };
+        if (w == DRAW) return { 0, {-1, -1} };
         else if (w == comp) return { 1, {-1, -1} };
         else return {-1, {-1, -1}};
     }
@@ -630,8 +630,4 @@ void game_loop(sf::RenderWindow& window)
     }
 
 }
-
-
-
-
 

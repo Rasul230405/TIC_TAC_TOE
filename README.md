@@ -44,34 +44,7 @@ Game Boards
     - It is responsible for the graphical representation and user interaction.
 
  ## *Bridging Logic and Graphics*
- The mousePosToIndex() function is crucial for the game's functionality. It converts mouse positions from the Graphics Board into corresponding indices on the Logic Board, allowing  integration between Graphics Board and Logic Board
-
- ## *Getting Started*
-### Prerequisites
-
-   - A C++ compiler (e.g., GCC, MSVC)
-   - Basic understanding of C++ and game development
-
-## *Installation*
-
-   - Clone the Repository:
-        - ```bash
-           git clone https://github.com/your-username/tic-tac-toe-minimax.git
-          ``` 
-        - ```bash
-          cd tic-tac-toe-minimax
-          ```
-   Build the Project:
-      Compile the source code using your preferred C++ compiler.
-## *Usage*
-
-   - Run the Game:
-   - Execute the compiled program to start the game.
-
-   - Play the Game:
-        - Choose whether to play as X or O.
-        - Click on the Graphics Board to make your moves.
-## *Minimax Algorithm*
+ The mousePosToIndex() function is crucial for the game's functionality. It converts mouse positions from the Graphics Board into corresponding indices on the Logic Board, allowing  integration between Graphics Board and Logic Board.
 
 The minimax algorithm ensures that the AI makes optimal decisions to either win or draw the game. It recursively evaluates possible game states and selects the move that minimizes the opponent's maximum score.
 

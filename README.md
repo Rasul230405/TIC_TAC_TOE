@@ -15,7 +15,7 @@ Welcome to the unbeatable Tic Tac Toe game, created with minimax algorithm. I ha
 The game consists of two main components:
 
 - Logic Board: This is the backbone of the game where the minimax algorithm operates to determine the best moves for the computer.
-- Graphics Board: A simple yet effective graphical representation of the Tic Tac Toe board, facilitating player interaction.
+- Graphics Board: A simple graphical representation of the Tic Tac Toe board.
 
 Game Boards
 
@@ -44,10 +44,9 @@ Game Boards
     - It is responsible for the graphical representation and user interaction.
 
  ## *Bridging Logic and Graphics*
- The mousePosToIndex() function is crucial for the game's functionality. It converts mouse positions from the Graphics Board into corresponding indices on the Logic Board, allowing  integration between Graphics Board and Logic Board.
+ The mousePosToIndex() function is crucial for the game's functionality. It converts mouse positions from the Graphics Board into corresponding indices on the Logic Board.
 
-The minimax algorithm ensures that the AI makes optimal decisions to either win or draw the game. It recursively evaluates possible game states and selects the move that minimizes the opponent's maximum score.
+The minimax algorithm ensures that the AI makes optimal decisions to either win or draw the game.
 
-### **Everyone is welcome to contribute to this project**
 
 
